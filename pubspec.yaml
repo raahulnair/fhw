@@ -1,0 +1,28 @@
+name: fhw
+description: "A customizable quiz app using Flutter and Open Trivia Database API."
+
+# Prevents accidental publishing to pub.dev
+publish_to: 'none'
+
+# Version and build number
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8  # For Cupertino-style icons
+  http: ^1.2.2            # For making API requests
+  html: ^0.15.0            # For decoding HTML entities
+  fluttertoast: ^8.2.1     # For displaying toast messages
+  provider: ^6.0.5         # For potential state management
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0    # For linting and improving code quality
+
+flutter:
+  uses-material-design: true
